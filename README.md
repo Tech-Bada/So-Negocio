@@ -2,20 +2,21 @@
 
 ## Software para compras e vendas online!
 
-<h4 align="center">   
-Só Negócio | Ecommerce | Em construção...
+<h4 align="center"> 
+	🚧  
+Só Negócio | Ecommerce 🚀 Em construção...  🚧
 </h4>
 
-### Tecnologias
+### 🛠 Tecnologias
 - Python
 - SQLAlchemy
 - Flask
 - Banco de dados MySql
 
-### Objetivos
+### 🚀 Objetivos
 Possuir:
 - Cadastro de usuários
 - Cadastros de produtos
 - Sistema de compra e venda
 
-### Auto: Gabriel Badaró
+### ✎ Auto: Gabriel Badaró
