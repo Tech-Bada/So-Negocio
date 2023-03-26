@@ -8,6 +8,17 @@ from flask import redirect
 from flask_login import(current_user, LoginManager, login_user, logout_user, login_required)
 import hashlib
 
+app = Flask(__name__)
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://proprotre1:toledo321654@proprotre1.mysql.pythonanywhere-services.com:3306/proprotre1$sonegocio"
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+db = SQLAlchemy(app)
+
+app.secret_key= "123456"
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view= "login"
+
 class Usuario(db.Model):
     __tablename__ = "usuario"
     id = db.Column("idusuario", db.Integer, primary_key=True)
