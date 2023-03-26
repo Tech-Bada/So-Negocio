@@ -4,7 +4,7 @@
 
 <h4 align="center"> 
 	🚧  
-Só Negócio | Ecommerce 🚀 Em construção...  🚧
+Só Negócio | Ecommerce 🚀 | Em construção...  🚧
 </h4>
 
 ### 🛠 Tecnologias
