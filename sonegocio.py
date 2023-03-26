@@ -1,3 +1,4 @@
+# Importando bibliotecas
 from flask import Flask, make_response
 from markupsafe import escape
 from flask import render_template
@@ -8,12 +9,13 @@ from flask import redirect
 from flask_login import(current_user, LoginManager, login_user, logout_user, login_required)
 import hashlib
 
+# Declarando variável para receber a classe Flask e conectando ao banco de dados
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://proprotre1:toledo321654@proprotre1.mysql.pythonanywhere-services.com:3306/proprotre1$sonegocio"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app)
-
+# Informando as credenciais para acesso ao banco de dados
 app.secret_key= "123456"
 login_manager = LoginManager()
 login_manager.init_app(app)
