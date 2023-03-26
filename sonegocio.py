@@ -1,3 +1,13 @@
+from flask import Flask, make_response
+from markupsafe import escape
+from flask import render_template
+from flask import request
+from flask_sqlalchemy import SQLAlchemy
+from flask import url_for
+from flask import redirect
+from flask_login import(current_user, LoginManager, login_user, logout_user, login_required)
+import hashlib
+
 class Usuario(db.Model):
     __tablename__ = "usuario"
     id = db.Column("idusuario", db.Integer, primary_key=True)
