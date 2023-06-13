@@ -19,4 +19,4 @@ Possuir:
 - Cadastros de produtos
 - Sistema de compra e venda
 
-### ✎ Auto: Gabriel Badaró
+### ✎ Autor: Gabriel Badaró
